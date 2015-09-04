@@ -10,8 +10,14 @@
 
   transition-property: font-size;
   transition-duration: 1s;
+  transition-timing-function:ease;
+  transition-delay:250ms;
+
+  transition: font-size 1s, color 2s, left 1s;
 }
 
 #greeting:hover{
   font-size: 100px;
+  color: #FF0000;
+  left: 120px;
 }
