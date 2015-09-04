@@ -21,3 +21,37 @@
   color: #FF0000;
   left: 220px;
 }
+
+/* BIRD ANIMATION */
+
+#box{
+  position: relative;
+  top: 40px;
+  width: 500px;
+  height: 400px;
+  background-color: #afd3ef;
+  border: 3px solid #032e4f;
+  margin: 0px auto;
+  text-align: center;
+}
+
+#bird{
+  position: absolute;
+  left: 80px;
+  top: 90px;
+  width: 100px;
+
+  transition: all 1s;
+}
+
+#box:hover #bird{
+  -webkit-transform: translate(150px, -45px);
+  -ms-transform: translate(150px, -45px);
+  -moz-transform: translate(150px, -45px);
+  transform: translate(150px, -45px);
+
+
+
+}
+
+
