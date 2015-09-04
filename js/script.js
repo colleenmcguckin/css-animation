@@ -1,1 +1,3 @@
-script.js
+$('#greeting').click(function(){
+  $(this).addClass('myTransition')
+});

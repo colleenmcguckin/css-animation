@@ -16,8 +16,8 @@
   transition: font-size 1s, color 2s, left 1s;
 }
 
-#greeting:hover{
+#greeting.myTransition{
   font-size: 100px;
   color: #FF0000;
-  left: 120px;
+  left: 220px;
 }
