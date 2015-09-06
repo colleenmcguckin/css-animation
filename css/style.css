@@ -40,14 +40,13 @@
   left: 80px;
   top: 90px;
   width: 100px;
-  transform: rotate(45deg);
-  transform-origin: 100% 50%;
+  transform: scale(.5);
 
   transition: all 1s;
 }
 
 #box:hover #bird{
-  transform: rotate(-45deg);
+  transform: scale(2.6);
 }
 
 
