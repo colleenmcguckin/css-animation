@@ -40,18 +40,14 @@
   left: 80px;
   top: 90px;
   width: 100px;
+  transform: rotate(45deg);
+  transform-origin: 100% 50%;
 
   transition: all 1s;
 }
 
 #box:hover #bird{
-  -webkit-transform: translate(150px, -45px);
-  -ms-transform: translate(150px, -45px);
-  -moz-transform: translate(150px, -45px);
-  transform: translate(150px, -45px);
-
-
-
+  transform: rotate(-45deg);
 }
 
 
