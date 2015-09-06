@@ -1,3 +1,8 @@
+body{
+  transform:perspective(200px);
+  transform-style:preserve-3d;
+}
+
 #greeting{
   position: absolute;
   left: 100px;
@@ -40,13 +45,14 @@
   left: 80px;
   top: 90px;
   width: 100px;
-  transform: scale(.5);
+  border: 1px solid #000;
+  transform: rotateX(45deg) rotateY(45deg);
 
   transition: all 1s;
 }
 
 #box:hover #bird{
-  transform: scale(2.6);
+  transform: rotateX(-45deg) rotateY(-45deg);
 }
 
 
